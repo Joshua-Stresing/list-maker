@@ -39,6 +39,17 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 6 / 3; }
+    .div2 { grid-area: 1 / 3 / 6 / 5; }
+
 section {
     background-color: var(--color5);
     max-width: 80%;
