@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { renderIngredientLI, renderMealLI } from './utils.js';
+import { renderIngredientLI, renderMealLI } from './util.js';
 
 const form = document.getElementById('add-ingredient');
 const ingredientList = document.getElementById('ingredient-list');
